@@ -196,6 +196,11 @@ conn.get("/api", circuit_breaker_run_options: {})
 c.use Circuitbox::FaradayMiddleware, circuit_breaker_options: {}
 ```
 
+## CHANGELOG
+- 0.9 deprecate the __run_option__ `:storage_key`
+- 0.8 add `run!` method to raise exception on circuit open and service
+    errors.
+
 ## TODO
 * ~~Fix Faraday integration to return a Faraday response object~~
 * Split stats into it's own repository
