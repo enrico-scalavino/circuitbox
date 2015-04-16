@@ -197,8 +197,8 @@ c.use Circuitbox::FaradayMiddleware, circuit_breaker_options: {}
 ```
 
 ## CHANGELOG
-- 0.9 deprecate the __run_option__ `:storage_key`
-- 0.8 add `run!` method to raise exception on circuit open and service
+- 0.10.0 deprecate the __run_option__ `:storage_key`
+- 0.9.0 add `run!` method to raise exception on circuit open and service
     errors.
 
 ## TODO
